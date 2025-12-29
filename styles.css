@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header,
+.description-section,
+.features-section,
+.quotes-section,
+.sign-up-section,
+.footer {
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.features-section {
+    text-align: center;
+    flex-direction: column;
+}
+
+.features-content {
+    display: flex;
+}
+
+.description-image,
+.features-image {
+    border: 8px solid red;
+}
+
+.description-image {
+    width: 500px;
+    height: 250px;
+}
+
+.features-image {
+    width: 100px;
+    height: 100px;
+}
+
+.quotes-section {
+    flex-direction: column;
+}
+
+.sign-up-modal {
+    display: flex;
+}
